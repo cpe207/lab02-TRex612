@@ -5,7 +5,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 10px;
   text-align: center;
   color: rgb(212, 255, 0);
 }
@@ -79,7 +79,6 @@ h2 {
 }
 
 .image {
-  width: 35%;
   border: 1px solid black;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -96,7 +95,17 @@ h2 {
   padding: 10px;
   /* margin-bottom: 10px; */
   width: 45vw;
-  height: 45vh;
+  height: 55vh;
+  background-color: lightblue;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.item1 {
+  padding: 10px;
+  /* margin-bottom: 10px; */
+  width: 45vw;
+  height: 34vh;
   background-color: lightblue;
   border: 1px solid black;
   align-items: center;
@@ -109,4 +118,9 @@ h2 {
   background-color: lightblue;
   border: 1px solid black;
   align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* จัดวัตถุให้อยู่ตามขอบซ้ายและขอบขวาของคอนเทนเนอร์ โดยมีระยะห่างเท่ากัน */
 }
