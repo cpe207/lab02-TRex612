@@ -12,7 +12,6 @@ h2 {
 
 .container {
   display: flex;
-  margin: auto;
 }
 
 .box {
@@ -66,9 +65,48 @@ h2 {
   margin-bottom: 20px;
 }
 
+.container_flex2 {
+  display: flex;
+  align-items: center; /* จัดตำแหน่งในแนวตั้ง */
+  justify-content: center; /* จัดตำแหน่งในแนวนอน */
+}
+
+.container_colum {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* จัดตำแหน่งในแนวตั้ง */
+  justify-content: flex-start; /* จัดตำแหน่งในแนวนอน */
+}
+
 .image {
-  width: 15%;
+  width: 35%;
   border: 1px solid black;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.item {
+  padding: 10px;
+  /* margin-bottom: 10px; */
+  width: 45vw;
+  height: 45vh;
+  background-color: lightblue;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.item2 {
+  padding: 10px;
+  width: 30vw;
+  height: 40vh;
+  background-color: lightblue;
+  border: 1px solid black;
+  align-items: center;
 }
