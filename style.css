@@ -1,60 +1,5 @@
-h1 {
-  font-size: 30px;
-  text-align: center;
-  color: blue;
-}
-
-h2 {
-  font-size: 10px;
-  text-align: center;
-  color: rgb(212, 255, 0);
-}
-
 .container {
   display: flex;
-}
-
-.box {
-  width: 200px;
-  height: 50px;
-  margin-right: 10px;
-}
-
-.box2 {
-  width: 1400px;
-  height: 300px;
-  border: 1px solid black;
-}
-
-.box3 {
-  width: 400px;
-  height: 50px;
-  margin-right: 10px;
-  margin-top: 13px;
-}
-
-.box4 {
-  width: 465.4px;
-  height: 250px;
-  border: 1px solid black;
-}
-
-.box5 {
-  width: 700px;
-  height: 300px;
-  border: 1px solid black;
-}
-
-.box6 {
-  width: 349px;
-  height: 200px;
-  border: 1px solid black;
-}
-
-.box_contact {
-  width: 800px;
-  height: 600px;
-  border: 1px solid black;
 }
 
 .container_flex {
@@ -79,6 +24,7 @@ h2 {
 }
 
 .image {
+  width: 50%;
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -95,10 +41,10 @@ h2 {
   padding: 10px;
   /* margin-bottom: 10px; */
   width: 45vw;
-  height: 55vh;
+  height: 60vh;
   background-color: lightblue;
   border: 1px solid black;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .item1 {
