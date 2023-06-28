@@ -8,8 +8,7 @@
 
 .container_flex2 {
   display: flex;
-  align-items: center; /* จัดตำแหน่งในแนวตั้ง */
-  justify-content: center; /* จัดตำแหน่งในแนวนอน */
+  justify-content: center;
 }
 
 .container_colum {
@@ -25,30 +24,21 @@
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-.container2 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
 .itembox1 {
-  padding: 10px;
   /* margin-bottom: 10px; */
   width: 30vw;
   height: 60vh;
-  background-color: lightblue;
-  border: 1px solid black;
+  /* background-color: lightblue;
+  border: 1px solid black; */
   /* align-items: center; */
 }
 
 .itembox2 {
-  padding: 10px;
   /* margin-bottom: 10px; */
-  width: 50vw;
+  width: 60vw;
   height: 60vh;
-  background-color: lightblue;
-  border: 1px solid black;
+  /* background-color: lightblue;
+  border: 1px solid black; */
   /* align-items: center; */
 }
 
